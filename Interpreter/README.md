@@ -18,28 +18,41 @@ WHILE-DONE is a loop with the C++ while loop semantics
 
 ## Syntax Examples
 ### Variable/Array declaration
-LET x
+LET x  
+
 LET arr[5]
 ### Input/Output commands
-READ count
+READ count  
+
 PRINT count
 ### Conditional statement
-IF count < 0
-PRINT 4
-[ELSE
-PRINT 5
+IF count < 0  
+
+PRINT 4  
+
+[ELSE  
+
+PRINT 5  
+
 ]
 ENDIF
 ### Loop command
-WHILE count > 0
-PRINT 6
-count = count - 1
+WHILE count > 0  
+
+PRINT 6  
+
+count = count - 1  
+
 DONE
 ### GOTO label
-IF count < 0
-GOTO End
-ENDIF
-count = count + 1
+IF count < 0  
+
+GOTO End  
+
+ENDIF  
+
+count = count + 1  
+
 LABEL End
 ## Example Program: Find the sum of n numbers
 LET count
@@ -85,4 +98,5 @@ LABEL end
 ## Future improvements
    - Enhancing the WHILE-DONE and IF-ELSE-ENDIF validation
    - Improve RLE version
+
    - Make GOTO automatically change scope when called with a label in another scope.
