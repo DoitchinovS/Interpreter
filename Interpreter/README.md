@@ -55,21 +55,35 @@ count = count + 1
 
 LABEL End
 ## Example Program: Find the sum of n numbers
-LET count
-READ count
-IF count < 0
-GOTO end
-LET sum
-sum = 0
-WHILE count > 0 
-	LET x
-	READ x
-	sum = sum + x
-	count = count + 1
-DONE
-PRINT sum
+LET count  
 
-LABEL end
+READ count  
+
+IF count < 0  
+
+GOTO end  
+
+LET sum  
+
+sum = 0  
+
+WHILE count > 0  
+
+	LET x  
+	
+	READ x  
+	
+	sum = sum + x  
+	
+	count = count + 1  
+	
+DONE  
+
+PRINT sum  
+
+
+LABEL end  
+
 
 ## Error Handling
 - Invalid identifiers of variables/labels
@@ -100,3 +114,4 @@ LABEL end
    - Improve RLE version
 
    - Make GOTO automatically change scope when called with a label in another scope.
+
