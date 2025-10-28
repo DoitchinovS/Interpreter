@@ -93,25 +93,26 @@ LABEL end
 - Invalid WHILE-DONE and IF-ELSE-ENDIF syntax
 - Undefined operation executions (division and modulo 0)
 ## Project Structure
-  Interpreter.cpp
-  ProgramInterpreter.cpp
-  ProgramInterpreter.h
-  ExpressionEvaluater.cpp
-  ExpressionEvaluater.h
-  IdentifierValidation.cpp
-  IdentifierValidation.h
-  ProgramLabels.cpp
-  ProgramLabels.h
-  ProgramVariables.cpp
-  ProgramVariables.h
+  Interpreter.cpp, 
+  ProgramInterpreter.cpp, 
+  ProgramInterpreter.h, 
+  ExpressionEvaluater.cpp, 
+  ExpressionEvaluater.h, 
+  IdentifierValidation.cpp, 
+  IdentifierValidation.h, 
+  ProgramLabels.cpp, 
+  ProgramLabels.h, 
+  ProgramVariables.cpp, 
+  ProgramVariables.h, 
 ## Testing Files
-   ExpressionEvaluationTest.cpp
-   IdentifiersTesting.cpp
-   LabelsTesting.cpp
-   VariablesTest.cpp
+   ExpressionEvaluationTest.cpp, 
+   IdentifiersTesting.cpp, 
+   LabelsTesting.cpp, 
+   VariablesTest.cpp, 
 ## Future improvements
    - Enhancing the WHILE-DONE and IF-ELSE-ENDIF validation
    - Improve RLE version
 
    - Make GOTO automatically change scope when called with a label in another scope.
+
 
