@@ -1,0 +1,15 @@
+LET x
+x = 4
+LET y
+y = 2
+IF x > y
+x = x + 7 % 3
+PRINT x
+IF y > 3
+PRINT y
+[ELSE
+y = y * 2
+PRINT y
+]
+ENDIF
+ENDIF

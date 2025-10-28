@@ -1,0 +1,23 @@
+LET count
+READ count
+IF count <= 0
+GOTO end
+ENDIF
+
+LET small
+LET first
+READ first
+small = first
+count = count - 1
+ 
+WHILE count > 0
+   LET x
+   READ x
+  IF small > x
+     small = x
+  ENDIF
+ count = count - 1
+DONE
+PRINT small
+
+LABEL end

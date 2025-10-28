@@ -1,0 +1,10 @@
+LET x
+LET y
+x = 5
+y = 4
+IF x > y
+PRINT x
+[ELSE
+PRINT y
+]
+ENDIF
